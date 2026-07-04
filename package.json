@@ -1,0 +1,43 @@
+{
+  "name": "astro-biel",
+  "version": "0.1.0",
+  "description": "Ask AI bot for technical documentation.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "astro-integration",
+    "astro-component",
+    "withastro",
+    "astro",
+    "ai",
+    "chatbot",
+    "search",
+    "documentation",
+    "ask-ai",
+    "rag"
+  ],
+  "repository": "https://github.com/TechDocsStudio/astro-biel.git",
+  "homepage": "https://docs.biel.ai/installation/astro",
+  "author": "TechDocs Studio <hi@techdocs.studio>",
+  "license": "MIT",
+  "peerDependencies": {
+    "astro": ">=4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.2.2"
+  }
+}
