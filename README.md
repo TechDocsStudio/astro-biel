@@ -1,10 +1,10 @@
-# AI chatbot integration for Astro
+# AI assistant integration for Astro
 
-Ask AI chatbot integration for [Astro](https://astro.build) sites, powered by [Biel.ai](https://biel.ai).
+AI assistant integration for [Astro](https://astro.build) sites, with an **Ask AI** button powered by [Biel.ai](https://biel.ai).
 
-![AI chatbot Astro](https://docs.biel.ai/assets/images/biel-widget-docs-bd28548cf26a37bcb7c496487280bbfe.png)
+![AI assistant Astro](https://docs.biel.ai/assets/images/biel-widget-docs-bd28548cf26a37bcb7c496487280bbfe.png)
 
-Add an AI chatbot to any Astro site using Biel.ai's integration. The integration adds both chat and search capabilities, works with any Astro template, and supports client-side navigation with Astro's ClientRouter.
+Add an AI assistant to any Astro site using Biel.ai's integration. The integration embeds the Ask AI button, works with any Astro template, and supports client-side navigation with Astro's ClientRouter. Configure the documentation search widget separately.
 
 Building with [Starlight](https://starlight.astro.build)? Use the dedicated [starlight-biel](https://github.com/TechDocsStudio/starlight-biel) plugin instead.
 
@@ -12,8 +12,9 @@ Building with [Starlight](https://starlight.astro.build)? Use the dedicated [sta
 
 ## Key features
 
-- AI chatbot that provides instant responses to documentation queries.
-- AI search engine for quick and relevant information retrieval.
+- **Ask AI** button that opens an AI assistant to answer questions from your documentation.
+- **Documentation search** to find matching pages from indexed docs with a separately configured search widget.
+- Connect menu to link the same indexed docs to Claude Code, Codex, and other compatible AI clients via [Biel.ai's hosted MCP server](https://docs.biel.ai/integrations/mcp-server).
 - Native Astro integration, works with any template or UI framework.
 - Survives client-side navigation (Astro ClientRouter / view transitions).
 - Customizable to match your site's branding and user needs.
@@ -63,7 +64,7 @@ Set `enable: false` to turn the widget off without removing the configuration.
 
 ## Get started
 
-See the [Astro AI chatbot integration guide](https://docs.biel.ai/installation/astro) for the full list of options and setup instructions.
+See the [Astro AI assistant integration guide](https://docs.biel.ai/installation/astro) for the full list of options and setup instructions.
 
 ## Support
 
