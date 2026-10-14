@@ -1,10 +1,10 @@
-# AI chatbot integration for Astro
+# AI assistant integration for Astro
 
-Ask AI chatbot integration for [Astro](https://astro.build) sites, powered by [Biel.ai](https://biel.ai).
+AI assistant integration for [Astro](https://astro.build) sites, powered by [Biel.ai](https://biel.ai).
 
-![AI chatbot Astro](https://docs.biel.ai/assets/images/biel-widget-docs-bd28548cf26a37bcb7c496487280bbfe.png)
+![AI assistant Astro](https://docs.biel.ai/assets/images/biel-widget-docs-bd28548cf26a37bcb7c496487280bbfe.png)
 
-Add an AI chatbot to any Astro site using Biel.ai's integration. The integration adds both chat and search capabilities, works with any Astro template, and supports client-side navigation with Astro's ClientRouter.
+Add an AI assistant to any Astro site using Biel.ai's integration. The integration adds both chat and search capabilities, works with any Astro template, and supports client-side navigation with Astro's ClientRouter.
 
 Building with [Starlight](https://starlight.astro.build)? Use the dedicated [starlight-biel](https://github.com/TechDocsStudio/starlight-biel) plugin instead.
 
@@ -12,8 +12,8 @@ Building with [Starlight](https://starlight.astro.build)? Use the dedicated [sta
 
 ## Key features
 
-- AI chatbot that provides instant responses to documentation queries.
-- AI search engine for quick and relevant information retrieval.
+- AI assistant that answers questions from your documentation.
+- AI search to find relevant documentation.
 - Native Astro integration, works with any template or UI framework.
 - Survives client-side navigation (Astro ClientRouter / view transitions).
 - Customizable to match your site's branding and user needs.
@@ -61,9 +61,17 @@ biel({
 
 Set `enable: false` to turn the widget off without removing the configuration.
 
+## MCP server for docs
+
+Biel.ai's [MCP server for docs](https://biel.ai/mcp-server-for-docs) lets Claude Code, Codex, and other compatible AI clients search and read the same indexed documentation as your website assistant.
+
+This integration embeds the assistant on your website. Configure Biel.ai's hosted MCP endpoint separately in your AI client using the [MCP setup guide](https://docs.biel.ai/integrations/mcp-server).
+
+Hosted MCP requires a Biel.ai plan that includes MCP access. See [pricing](https://biel.ai/pricing) for current plan availability and limits.
+
 ## Get started
 
-See the [Astro AI chatbot integration guide](https://docs.biel.ai/installation/astro) for the full list of options and setup instructions.
+See the [Astro AI assistant integration guide](https://docs.biel.ai/installation/astro) for the full list of options and setup instructions.
 
 ## Support
 
