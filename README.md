@@ -14,6 +14,7 @@ Building with [Starlight](https://starlight.astro.build)? Use the dedicated [sta
 
 - AI assistant that answers questions from your documentation.
 - AI search to find relevant documentation.
+- Connect menu to link the same indexed docs to Claude Code, Codex, and other compatible AI clients via [Biel.ai's hosted MCP server](https://docs.biel.ai/integrations/mcp-server), when MCP is enabled for your project on an [eligible plan](https://biel.ai/pricing).
 - Native Astro integration, works with any template or UI framework.
 - Survives client-side navigation (Astro ClientRouter / view transitions).
 - Customizable to match your site's branding and user needs.
@@ -60,14 +61,6 @@ biel({
 ```
 
 Set `enable: false` to turn the widget off without removing the configuration.
-
-## MCP server for docs
-
-Biel.ai's [MCP server for docs](https://biel.ai/mcp-server-for-docs) lets Claude Code, Codex, and other compatible AI clients search and read the same indexed documentation as your website assistant.
-
-This integration embeds the assistant on your website. Configure Biel.ai's hosted MCP endpoint separately in your AI client using the [MCP setup guide](https://docs.biel.ai/integrations/mcp-server).
-
-Hosted MCP requires a Biel.ai plan that includes MCP access. See [pricing](https://biel.ai/pricing) for current plan availability and limits.
 
 ## Get started
 
